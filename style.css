@@ -1,4 +1,90 @@
 * {
     font-family: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
-    font-weight: 100;
+    font-weight:100
+}
+
+
+.flex-wrapper {
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* nav bar */
+
+
+#nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin: 0 1rem 1rem 0;    
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0px auto;
+    
+}
+
+li:hover {
+    background-color: #F4743B
+}
+
+/* body {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    } */
+
+#portrait {
+    width: 200px;
+    border: solid 1px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+/* hans watkins title */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* page classes */
+.landing-page {
+    display: block;
+}
+
+.about-page {
+    display: none;
+}
+
+.projects {
+    display: none;
+    text-align: center;
+}
+
+.contact-me {
+    display: none;
+    text-align: center;
+}
+
+.resume {
+    display: none;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
