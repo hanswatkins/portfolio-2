@@ -33,6 +33,7 @@ ul {
 
 li:hover {
     background-color: #F4743B
+    
 }
 
 /* body {
@@ -42,10 +43,8 @@ li:hover {
 
 #portrait {
     width: 200px;
-    border: solid 1px;
     display: block;
     margin: 0px auto;
-    
 }
 
 /* hans watkins title */
@@ -64,6 +63,13 @@ h2 {
 
 .about-page {
     display: none;
+}
+
+#about-me-text {
+    margin: 0 30vw;
+}
+#technologies-desc {
+    margin: 2rem 30vw;
 }
 
 .projects {
@@ -88,3 +94,63 @@ footer {
 a {
     text-decoration: none;
 }
+
+p {
+    margin: 50px
+}
+
+#hamburger-menu {
+    margin-left: 90vw;
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+
+
+
+/*-------------------------------------mobile style---------------------------------*/
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: white;
+}
+
+#about-me-text {
+    margin: 0 05vw;
+    text-align: center;
+}
+#technologies-desc {
+    margin: 2rem 05vw;
+    text-align: center;
+}
+
+#hamburger-menu {
+    margin-left: 90vw;
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
+.landing-page {
+    display: block;
+}
+
+.menu {
+    display: block;
+
+}
+
+#menu-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}
+

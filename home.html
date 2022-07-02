@@ -8,11 +8,16 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/2f243937b0.js" crossorigin="anonymous"></script>
+    
 
 </head>
 <body>
 
 <div class="flex-wrapper">
+
+    <div id="hamburger-menu"><i class="fa-solid fa-bars"></i></div>
+    
     <nav>
         <ul id="nav-bar">
             <li id="home-link">home</li>
@@ -26,15 +31,16 @@
 
     <div class="landing-page">
         <h1>hans watkins</h1>
-        <h2>software engineer, music producer</h2>
+        <h2>software engineer</h2>
+        <h2>music producer</h2>
         <img id="portrait" src="hans-pic-bw.jpg" alt="black and white portrait of me wearing a wool jacket and a black hat standing in front of shelves.">
-    </div>
+    </div> 
 
     <div class="about-page">
         <h1>about me</h1>
-        <p>I began my career as a freelance music producer. I was invited to record at Spotify's LA Studio, worked with Universal Music Group, Bluenote Records, and made music for every major "24/7 lofi beats to study to" live stream out there. Now my curiosity is leading me in the direction of Software Engineering. In June I enrolled in General Assembly's Software Engineering Immersive and I'll be graduating with over 500 hours of engineering experience in August 2022.</p>
+        <p id="about-me-text">I began my career as a freelance music producer. I was invited to record at Spotify's LA Studio, worked with Universal Music Group, Bluenote Records, and made music for every major "24/7 lofi beats to study to" live stream out there. Now my curiosity is leading me in the direction of Software Engineering. In June I enrolled in General Assembly's Software Engineering Immersive and I'll be graduating with over 500 hours of engineering experience in August 2022.</p>
 
-        <p>HTML5, CSS3, JavaScript, React.js, Node.js, Express, MongoDB, Mongoose, Python, Django, Postgres, AWS S3</p>
+        <p id="technologies-desc">Technologies: HTML5, CSS3, JavaScript, React.js, Node.js, Express, MongoDB, Mongoose, Python, Django, Postgres, AWS S3</p>
     </div>
 
     <div class="projects">
@@ -50,6 +56,16 @@
     <div class="resume">
         <h1>resume</h1>
         <p>view or download my resume <a href="#">here</a></p>
+    </div>
+
+    <div class="menu">
+        <ul id="menu-links">
+            <li id="home-link">home</li>
+            <li id="about-link">about</li>
+            <li id="projects-link">projects</li>
+            <li id="resume-link">resume</li>
+            <li id="contact-link">contact</li>
+        </ul>
     </div>
 
     <footer>
